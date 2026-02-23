@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eu-ai-act-scanner"
+version = "0.1.0"
+description = "Scan your project for AI framework usage and check EU AI Act / GDPR compliance"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    {name = "ArkForge", email = "contact@arkforge.fr"},
+]
+keywords = ["eu-ai-act", "compliance", "gdpr", "ai", "regulation", "scanner", "audit"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Quality Assurance",
+    "Topic :: Software Development :: Testing",
+    "Topic :: Security",
+]
+
+[project.scripts]
+eu-ai-act-scanner = "eu_ai_act_scanner.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/ark-forge/eu-ai-act-scanner"
+Documentation = "https://github.com/ark-forge/eu-ai-act-scanner#readme"
+Repository = "https://github.com/ark-forge/eu-ai-act-scanner"
+Issues = "https://github.com/ark-forge/eu-ai-act-scanner/issues"
+
+[tool.setuptools.packages.find]
+include = ["eu_ai_act_scanner*"]

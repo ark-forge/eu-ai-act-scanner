@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+eu_ai_act_scanner/__init__.py
+eu_ai_act_scanner/__main__.py
+eu_ai_act_scanner/cli.py
+eu_ai_act_scanner/gdpr.py
+eu_ai_act_scanner/guidance.py
+eu_ai_act_scanner/patterns.py
+eu_ai_act_scanner/scanner.py
+eu_ai_act_scanner.egg-info/PKG-INFO
+eu_ai_act_scanner.egg-info/SOURCES.txt
+eu_ai_act_scanner.egg-info/dependency_links.txt
+eu_ai_act_scanner.egg-info/entry_points.txt
+eu_ai_act_scanner.egg-info/top_level.txt

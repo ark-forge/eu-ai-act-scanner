@@ -1,0 +1,2 @@
+[console_scripts]
+eu-ai-act-scanner = eu_ai_act_scanner.cli:main
