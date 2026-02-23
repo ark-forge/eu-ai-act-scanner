@@ -1,0 +1,35 @@
+{
+  "name": "eu-ai-act-scanner",
+  "version": "0.1.0",
+  "description": "Scan your project for AI framework usage and check EU AI Act compliance. Detects 26 AI frameworks.",
+  "bin": {
+    "eu-ai-act-scanner": "./bin/eu-ai-act-scanner.js"
+  },
+  "keywords": [
+    "eu-ai-act",
+    "compliance",
+    "ai",
+    "regulation",
+    "scanner",
+    "gdpr",
+    "audit"
+  ],
+  "author": "ArkForge <contact@arkforge.fr>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ark-forge/eu-ai-act-scanner"
+  },
+  "homepage": "https://github.com/ark-forge/eu-ai-act-scanner#readme",
+  "bugs": {
+    "url": "https://github.com/ark-forge/eu-ai-act-scanner/issues"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ]
+}
