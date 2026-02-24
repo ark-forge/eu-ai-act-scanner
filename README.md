@@ -151,3 +151,4 @@ Issues and PRs welcome at [github.com/ark-forge/eu-ai-act-scanner](https://githu
 ## License
 
 MIT
+
