@@ -144,11 +144,39 @@ The EU AI Act classifies AI systems into 4 risk categories:
 
 This scanner detects which frameworks you use and maps them to their default risk level. Your actual risk category depends on your specific use case — the scanner suggests a starting point.
 
+## MCP Server
+
+This scanner is also available as an **MCP server** for AI coding assistants (Claude, Cursor, Windsurf, etc.). Run compliance scans directly from your IDE.
+
+```bash
+# Connect via direct URL
+https://arkforge.fr/mcp
+```
+
+See [arkforge.fr/mcp](https://arkforge.fr/mcp) for setup instructions.
+
+## Troubleshooting
+
+### CLI not found after `pip install`
+
+If `eu-ai-act-scanner` is not found after install, your Python user scripts directory may not be on PATH:
+
+```bash
+# Add to your shell profile (~/.bashrc, ~/.zshrc)
+export PATH="$HOME/.local/bin:$PATH"
+```
+
+Or run directly with Python:
+
+```bash
+python -m eu_ai_act_scanner scan ./my-project
+```
+
 ## Contributing
 
 Issues and PRs welcome at [github.com/ark-forge/eu-ai-act-scanner](https://github.com/ark-forge/eu-ai-act-scanner).
 
 ## License
 
-MIT
+MIT — Built by [ArkForge](https://arkforge.fr)
 
