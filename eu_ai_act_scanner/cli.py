@@ -158,6 +158,14 @@ def cmd_scan(args):
             gdpr_report = gdpr.generate_report(gdpr_scan, gdpr_compliance)
             print(json.dumps(gdpr_report, indent=2))
 
+    # CTA for hosted MCP scanner
+    if not args.json:
+        print(_dim("─" * 60))
+        print(f"  {_bold('Hosted MCP scanner available')} — scan without installing anything.")
+        print(f"  Works with Claude, Cursor, Windsurf, and any MCP client.")
+        print(f"  {_blue('https://arkforge.fr/mcp')}")
+        print()
+
 
 def main():
     parser = argparse.ArgumentParser(

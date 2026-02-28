@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "eu-ai-act-scanner"
-version = "0.1.1"
+version = "0.1.2"
 description = "Scan your project for AI framework usage and check EU AI Act / GDPR compliance"
 readme = "README.md"
 license = "MIT"
