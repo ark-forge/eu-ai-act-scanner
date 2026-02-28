@@ -1,6 +1,6 @@
 # EU AI Act Scanner
 
-[![PyPI version](https://img.shields.io/pypi/v/eu-ai-act-scanner.svg)](https://pypi.org/project/eu-ai-act-scanner/)
+[![GitHub Stars](https://img.shields.io/github/stars/ark-forge/eu-ai-act-scanner?style=flat&label=⭐%20Star)](https://github.com/ark-forge/eu-ai-act-scanner/stargazers) [![PyPI version](https://img.shields.io/pypi/v/eu-ai-act-scanner.svg)](https://pypi.org/project/eu-ai-act-scanner/)
 [![npm version](https://img.shields.io/npm/v/eu-ai-act-scanner.svg)](https://www.npmjs.com/package/eu-ai-act-scanner)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
@@ -179,4 +179,3 @@ Issues and PRs welcome at [github.com/ark-forge/eu-ai-act-scanner](https://githu
 ## License
 
 MIT — Built by [ArkForge](https://arkforge.fr)
-
