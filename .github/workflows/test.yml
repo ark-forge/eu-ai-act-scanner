@@ -29,11 +29,8 @@ jobs:
       - name: Test CLI help
         run: eu-ai-act-scanner --help
 
-      - name: Test suggest command
-        run: eu-ai-act-scanner suggest --use-case "chatbot for customer support"
-
-      - name: Test check command
-        run: eu-ai-act-scanner check . --risk minimal
+      - name: Test scan with risk
+        run: eu-ai-act-scanner scan . --risk minimal
 
       - name: Test JSON output
         run: eu-ai-act-scanner scan . --json
