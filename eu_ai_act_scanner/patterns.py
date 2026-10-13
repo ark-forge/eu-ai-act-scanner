@@ -40,7 +40,7 @@ CONFIG_DEPENDENCY_PATTERNS = {
     "cohere": [r'"cohere"', r"\bcohere\s*[>=<~!]", r"\bcohere\s*$"],
     "aws_bedrock": [r'"amazon-bedrock"', r'"@aws-sdk/client-bedrock"', r"\bamazon-bedrock\s*[>=<~!]", r"\bamazon-bedrock\s*$"],
     "azure_openai": [r'"azure-ai-openai"', r'"@azure/openai"', r"\bazure-ai-openai\s*[>=<~!]", r"\bazure-ai-openai\s*$"],
-    "ollama": [r'"ollama"', r"\bollama\s*[>=<~!]"],
+    "ollama": [r'"ollama"', r"\bollama\s*[>=<~!]", r"@ollama/"],
     "llamaindex": [r'"llama-index"', r"\bllama-index\s*[>=<~!]", r"\bllama.index\s*[>=<~!]"],
     "replicate": [r'"replicate"', r"\breplicate\s*[>=<~!]"],
     "groq": [r'"groq"', r"\bgroq\s*[>=<~!]"],
